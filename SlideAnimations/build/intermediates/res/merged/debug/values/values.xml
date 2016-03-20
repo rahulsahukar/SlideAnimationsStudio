@@ -232,15 +232,19 @@
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
         <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
+
+                    Theme customizations available in newer API levels can go in
+                    res/values-vXX/styles.xml, while customizations related to
+                    backward-compatibility can go here.
+
 
 
         -->
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <!--
+         All customizations that are NOT specific to a particular API-level can go here.
+        -->
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1575,9 +1579,12 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <style name="dialog_animation_fade" parent="@android:style/Theme.Dialog">
+    <style name="dialog_animation_fade">
         <item name="android:windowEnterAnimation">@anim/dpslideup</item>
         <item name="android:windowExitAnimation">@anim/dpslidedown</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
 </resources>

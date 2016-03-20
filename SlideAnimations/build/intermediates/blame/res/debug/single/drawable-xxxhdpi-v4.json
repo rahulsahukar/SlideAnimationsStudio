@@ -88,12 +88,12 @@
         "source": "/home/hadoop/Android/Projects/SlideAnimations-master3/SlideAnimations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "/home/hadoop/Android/Projects/SlideAnimations-master3/SlideAnimations/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_cut_material.png",
-        "source": "/home/hadoop/Android/Projects/SlideAnimations-master3/SlideAnimations/build/generated/res/pngs/debug/drawable-xxxhdpi/abc_ic_menu_cut_material.png"
-    },
-    {
         "merged": "/home/hadoop/Android/Projects/SlideAnimations-master3/SlideAnimations/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_go_search_api_material.png",
         "source": "/home/hadoop/Android/Projects/SlideAnimations-master3/SlideAnimations/build/generated/res/pngs/debug/drawable-xxxhdpi/abc_ic_go_search_api_material.png"
+    },
+    {
+        "merged": "/home/hadoop/Android/Projects/SlideAnimations-master3/SlideAnimations/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_cut_material.png",
+        "source": "/home/hadoop/Android/Projects/SlideAnimations-master3/SlideAnimations/build/generated/res/pngs/debug/drawable-xxxhdpi/abc_ic_menu_cut_material.png"
     },
     {
         "merged": "/home/hadoop/Android/Projects/SlideAnimations-master3/SlideAnimations/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png",
